@@ -1,0 +1,16 @@
+title: "My Site"
+description: "A personal blog and portfolio"
+baseurl: "https://dhruvchopra1.github.io/DhruvChopra123/" 
+url: "https://dhruvchopra1.github.io"
+
+# Use Hydejack as a remote theme
+remote_theme: hydecorp/hydejack
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+paginate: 5
+paginate_path: "/page:num"
